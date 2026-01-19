@@ -58,7 +58,37 @@
 # print(new_list)
 # print("Runner up is", new_list[-2])
 
+
+# # if __name__ == '__main__':
+# #     n = int(input("Enter number: \n"))
+# #     integer_list = map(int, input().split())
+# #     arr=[]
+# #     arr.append(integer_list)
+# #     print(arr)
         
 
+# #working Logiccccc
+
+# # arr = []
+# # nums = input("Enter the number: \n") 
+# # nums_list = nums.split()
+# # for i in nums_list:
+# #     arr.append(int(i))
+# # print(arr)
+# if __name__ == '__main__':
+#     n = int(input("enter the val \n"))
+#     integer_list = map(int, input().split())
+#     arr=[]
+#     for i in integer_list:
+#         arr.append(int(i))
+#     x=tuple(arr)
+#     h=hash(x)
+#     print(h)
         
-        
+def swap_case(s):
+    return s.swapcase()
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
